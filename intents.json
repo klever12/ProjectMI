@@ -1,0 +1,24 @@
+{ "intents":
+  [
+      {
+        "tag": "greeting",
+        "patterns": ["Hello", "Hi", "Hey"],
+        "responses": ["Hi there", "Hello", "Hi"]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "Goodbye"],
+        "responses": ["Have a nice day", "Bye!"]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thank you", "Thanks"],
+        "responses": ["Glad to help!", "My pleasure", "You're welcome"]
+      },
+      {
+        "tag": "about",
+        "patterns": ["Who are you?", "What are you?"],
+        "responses": ["I am a virtual tour guide", "I am a bot tour guide"]
+      }
+  ]
+}
