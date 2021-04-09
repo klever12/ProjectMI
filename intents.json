@@ -19,6 +19,38 @@
         "tag": "about",
         "patterns": ["Who are you?", "What are you?"],
         "responses": ["I am a virtual tour guide", "I am a bot tour guide"]
+      },
+      {"tag": "location",
+       "patterns": ["Where is Wooster?", "Where is the College?", "Where is it located?", "How do I find Wooster?", "What is the College of Wooster's address?"],
+       "responses": ["The address of the College of Wooster is \n1189 Beall Ave \nWooster, OH 44691"]
+      },
+      {"tag": "acceptance rate",
+       "patterns": ["What is the acceptance rate of Wooster?", "What is the College of Wooster's acceptance rate?", "How likely am I to get into Wooster?", "How many people get accepted to Wooster every year?"],
+       "responses": ["The acceptance rate of the College of Wooster is approximately 55%"]
+      },
+      {"tag": "tuition",
+       "patterns": ["How expensive is Wooster?", "What is Wooster's tuition?", "How much does going to Wooster cost?"],
+       "responses": ["The total cost of tuition, fees, and room and board at the College of Wooster is $66,750"]
+      },
+      {"tag": "financial aid",
+       "patterns": ["What if I can't afford to go to Wooster?", "How likely am I to recieve finacial aid?", "Can I get financial aid?", "How much financial aid can I get?"],
+       "responses": ["More than 80% of Wooster students recieve financial aid. The average financial aid award for students applying in 2020-21 was over $46,868"]
+      },
+      {"tag": "diversity",
+       "patterns": ["What is the diversity rate at Wosoter?", "Are there a lot of people of color at Wooster?"],
+       "responses": ["The College of Wooster has about 24% U.S. students of color, and 17% international students. 46 U.S. states and 65 countries are represented in the current student body"]
+      },
+      {"tag": "",
+       "patterns": [""],
+       "responses": [""]
+      },
+      {"tag": "",
+       "patterns": [""],
+       "responses": [""]
+      },
+      {"tag": "",
+       "patterns": [""],
+       "responses": [""]
       }
   ]
 }
