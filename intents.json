@@ -19,6 +19,11 @@
         "tag": "about",
         "patterns": ["Who are you?", "What are you?"],
         "responses": ["I am a virtual tour guide", "I am a bot tour guide"]
+      },
+      {
+        "tag": "enrolled",
+        "patterns": ["How many students are enrolled?", "How many students are on campus?"],
+        "responses": ["In 2019, 2,008 students were enrolled", "About 2,000 students are enrolled"]
       }
   ]
 }
