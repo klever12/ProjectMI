@@ -33,11 +33,11 @@
        "responses": ["The total cost of tuition, fees, and room and board at the College of Wooster is $66,750"]
       },
       {"tag": "financial aid",
-       "patterns": ["What if I can't afford to go to Wooster?", "How likely am I to recieve finacial aid?", "Can I get financial aid?", "How much financial aid can I get?"],
-       "responses": ["More than 80% of Wooster students recieve financial aid. The average financial aid award for students applying in 2020-21 was over $46,868"]
+       "patterns": ["What if I can't afford to go to Wooster?", "How likely am I to receive financial aid?", "Can I get financial aid?", "How much financial aid can I get?"],
+       "responses": ["More than 80% of Wooster students receive financial aid. The average financial aid award for students applying in 2020-21 was over $46,868"]
       },
       {"tag": "diversity",
-       "patterns": ["What is the diversity rate at Wosoter?", "Are there a lot of people of color at Wooster?"],
+       "patterns": ["What is the diversity rate at Wooster?", "Are there a lot of people of color at Wooster?"],
        "responses": ["The College of Wooster has about 24% U.S. students of color, and 17% international students. 46 U.S. states and 65 countries are represented in the current student body"]
       },
       {"tag": "",
