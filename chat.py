@@ -22,14 +22,14 @@ def chat():
         tokenizer = pickle.load(handle)
 
     # load label encoder object
-    with open('label_encoder.pickle', 'rb') as enc:
+    with open('label_encoder', 'rb') as enc:
         lbl_encoder = pickle.load(enc)
 
     # parameters - why 20?
     max_len = 20
 
     while True:
-        print(Fore.LIGHTBLUE_EX + "User: " + Style.RESET_ALL, end="")
+        print(Fore.LIGHTBLUE_EX + "User: " + Style.RESET_ALL)
         inp = input()
         if inp.lower() == "quit":
             break
@@ -38,7 +38,7 @@ def chat():
                                              truncating='post', maxlen=max_len))
         tag = lbl_encoder.inverse_transform([np.argmax(result)])
 
-        # do we want random?
+
         for i in data['intents']:
             if i['tag'] == tag:
                 print(Fore.GREEN + "ChatBot:" + Style.RESET_ALL , np.random.choice(i['responses']))

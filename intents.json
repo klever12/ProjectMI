@@ -17,12 +17,12 @@
       },
       {
         "tag": "about",
-        "patterns": ["Who are you?", "What are you?"],
+        "patterns": ["Who are you?", "What are you?", "Are you a real person?"],
         "responses": ["I am a virtual tour guide", "I am a bot tour guide"]
       },
       {"tag": "location",
        "patterns": ["Where is Wooster?", "Where is the College?", "Where is it located?", "How do I find Wooster?", "What is the College of Wooster's address?"],
-       "responses": ["The address of the College of Wooster is \n1189 Beall Ave \nWooster, OH 44691"]
+       "responses": ["The address of the College of Wooster is: \n1189 Beall Ave \nWooster, OH 44691"]
       },
       {"tag": "acceptance rate",
        "patterns": ["What is the acceptance rate of Wooster?", "What is the College of Wooster's acceptance rate?", "How likely am I to get into Wooster?", "How many people get accepted to Wooster every year?"],
