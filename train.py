@@ -1,4 +1,5 @@
-# resource:
+# Purpose: The purpose is to define and train a neural network model.
+# resources:
 # https://towardsdatascience.com/how-to-build-your-own-chatbot-using-deep-learning-bb41f970e281
 
 import json
@@ -51,7 +52,7 @@ label_encoder = LabelEncoder()
 training_labels = label_encoder.fit_transform(training_labels)
 
 # set up the "Tokenizer" class that will be used to vectorize the text data
-tokenizer = Tokenizer(num_words=1000, oov_token="<OOV")
+tokenizer = Tokenizer(num_words=1000, oov_token="<OOV>")
 # update the internal vocabulary based on the list of messages(patterns)
 # index dictionary is created for every word, and they get a unique integer
 # based on frequency.
@@ -72,7 +73,8 @@ model = Sequential()
 # integer vectors(words). Weights can be retrieved by multiplying the one-hot
 # vector assigned to each integer vector to the embedding matrix.
 model.add(Embedding(1000, 16, input_length=20))
-# ( Need to revisit this )
+# add an average global pooling layer used to reduce the total number of
+# parameters in the neural network model in order minimize overfitting
 model.add(GlobalAveragePooling1D())
 # a neural network layer is added to the model that creates a weights matrix.
 # This layer implements the output = activation(dot(input, kernel) + bias
@@ -84,15 +86,13 @@ model.add(Dense(16, activation='relu'))
 # another neural network is added, but the activation function is softmax
 # which converts the previous output to a vector of categorical probabilities
 model.add(Dense(num_labels, activation='softmax'))
-# ( need to revisit this) sets up the configurations for the neural network
-# model. The Adam gradient descent method is used.
+# sets up the configurations for the neural network model.
+# The Adam gradient descent method is used.
 # sparse_categorical_crossentropy is used to get the crossentropy loss between
 # predictions and labels. accuracy in metrics is used to get how often labels
 # are predicted corrrectly
 model.compile(optimizer='adam', loss='sparse_categorical_crossentropy',
               metrics=['accuracy'])
-# a summary of the neural network gets printed
-model.summary()
 
 # the neural network model gets trained for 500 iterations
 # and a record of loss and metric values is given with a History object
