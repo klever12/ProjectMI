@@ -19,7 +19,11 @@ def chat():
     # load the model trained in train.py
     model = keras.models.load_model('chat_model')
 
+    # a summary of the neural network gets printed
+    model.summary()
+
     # load the tokenizer object saved in train.py
+
     with open('tokenizer.pickle', 'rb') as handle:
         tokenizer = pickle.load(handle)
 
