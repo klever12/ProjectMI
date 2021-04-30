@@ -8,7 +8,7 @@ from colorama import Fore, Style, Back
 import random
 import pickle
 
-# read the data from teh json file
+# read the data from the json file
 with open("intents.json") as file:
     data = json.load(file)
 
@@ -23,7 +23,6 @@ def chat():
     model.summary()
 
     # load the tokenizer object saved in train.py
-
     with open('tokenizer.pickle', 'rb') as handle:
         tokenizer = pickle.load(handle)
 
