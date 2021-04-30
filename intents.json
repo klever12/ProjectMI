@@ -66,7 +66,7 @@
     },
     {"tag": "old main",
      "patterns": ["What is Old Main?", "What do they serve at Old Main?", "Where is Old Main?"],
-     "responses": ["Old Main is located in the basement of Kauke Hall. Flex dollars may be paid for baker items and yogurts, as well as made-to-order coffes."]
+     "responses": ["Old Main is located in the basement of Kauke Hall. Flex dollars may be paid for baker items and yogurts, as well as made-to-order coffees."]
     },
     {"tag": "alley",
      "patterns": ["What is the Alley?", "Why do they call it the Alley?", "Where is the Alley?"],
@@ -76,9 +76,21 @@
      "patterns": ["How are the dorms?", "How are the dorms at Wooster?", "Where do people live?", "Where would I live?", "How are the living conditions at Wooster?", "What are the dormitories like?"],
      "responses": ["The majority of students live in dorms on campus all four years of their time at Wooster. There are designated dorm buildings for first years, and older students choose their buildings and rooms in order of random draw. Most rooms are doubles, though triples, singles, and suits are also available. There are also program houses, in which groups of students live in a house together while working with or as a part of a program."]
     },
-    {"tag": "",
-     "patterns": [""],
-     "responses": [""]
+    {"tag": "size",
+      "patterns": ["What is the size of campus?", "How big is the college?", "Is the college big?"],
+      "responses": ["The College of Wooster is 240 acres.", "The college is 240 acres."]
+    },
+    {"tag": "degrees",
+      "patterns": ["What types of degrees are granted?", "What are the types of degrees granted at the college?", "What type of degree can I earn at the college?"],
+      "responses": ["The degrees granted are Bachelor of Arts, Bachelor of Music, and Bachelor of Music Education.", "The type of degrees are Bachelor of Arts, Bachelor of Music, and Bachelor of Music Education."]
+    },
+    {"tag": "ratio",
+      "patterns": ["What is the student-faculty ratio?", "What is the ratio of student-faculty?"],
+      "responses": ["The ratio is 10 to 1.", "The student-faculty ratio is 10 to 1."]
+    },
+    {"tag": "founding",
+     "patterns": ["When was the college founded?", "What is the college's founding date?"],
+     "responses": ["The founding date is December 18, 1866.", "The College of Wooster's founding date is December 18, 1866."]
     }
   ]
 }
