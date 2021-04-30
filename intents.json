@@ -40,17 +40,45 @@
        "patterns": ["What is the diversity rate at Wooster?", "Are there a lot of people of color at Wooster?"],
        "responses": ["The College of Wooster has about 24% U.S. students of color, and 17% international students. 46 U.S. states and 65 countries are represented in the current student body"]
       },
-      {"tag": "",
-       "patterns": [""],
-       "responses": [""]
+      {"tag": "food",
+       "patterns": ["How is the food at Wooster?", "What's the food like?", "What dining options are there?", "Is there a meal plan?", "What are the meal plan options?","How do I find things to eat?", "What are meal swipes?", "What are Flex dollars?", "What is flex?"],
+       "responses": ["Students have a choice between three meal plans, each of which have differing amounts of meal swipes and Flex dollars. The main dining hall at Wooster is in Lowry, the student center and meals here are paid for using meal swipes. Other dining locations are Mom's Cafe, and Knowlton Cafe, which take meal swipes and Flex dollars, and Old Main which takes Flex dollars. MacLeod's has snack foods and frozen dinners that can be paid for using Flex dollars or cash."]
       },
-      {"tag": "",
-       "patterns": [""],
-       "responses": [""]
-      },
-      {"tag": "",
-       "patterns": [""],
-       "responses": [""]
-      }
+      {"tag": "lowry",
+       "patterns": ["Can you tell me about Lowry?", "What is Lowry like?", "What's in the student center?"],
+       "responses": ["The student center, called Lowry, houses the main dining hall on the second floor, MacLeod's, the post office, a bookstore, and a lounge space on the main floor, and Mom's Cafe and a study space in the basement."]
+     },
+     {"tag": "lowry food",
+      "patterns": ["Can you tell me about Lowry dining hall?", "What is Lowry dining hall like?", "How is the food in Lowry?"],
+      "responses": ["Lowry dining hall is on the second floor of the Lowry student center. It is open every day of the week from 7 am to 10 pm, with designated meal times when food is swapped out. It costs one meal swipe to enter, and the food is served buffet style. There are many food options, including vegetarian and allergen-free options. Much of the food comes from local farms."]
+    },
+    {"tag": "macleods",
+     "patterns": ["What is MacLeod's?", "What is the c store?", "What do they sell in MacLeod's?", "What do they sell in the c store?"],
+     "responses": ["Macleod's, often referred to as the C store, is a location within Lowry student center that sells canned foods, snacks, and frozen meals along with necessities such as shampoo, feminine hygiene products, deoderant, and tissues. They also sell made-to-order hot and cold drinks. They take Flex dollars, cash, or card as payment."]
+    },
+    {"tag": "moms",
+     "patterns": ["What is Mom's Cafe?", "What do they serve at Mom's Cafe?", "What is moms?", "What do they serve at moms?", "Where is Mom's Cafe?", "Where is moms?"],
+     "responses": ["Mom's Cafe is located on the ground floor of Lowry student center. Meal swipes or Flex dollars may be paid in exchange for made-to-order foods such as sandwiches, naan pizzas, salads, bowls, and smoothies. Mom's is open every weekday from 11 am to 7 pm."]
+    },
+    {"tag": "knowlton",
+     "patterns": ["What is Knowlton Cafe?", "What do they serve at Knowlton Cafe?", "Where is Knowlton Cafe?"],
+     "responses": ["Knowlton Cafe is located in the Ruth Willimas hall of life sciences. Meal swipes or Flex dollars may be paid for the salads and/or soups available that day, as well as made-to-order smoothies and coffes. Knowlton is open every weekday from 7:30 pm to 6 pm."]
+    },
+    {"tag": "old main",
+     "patterns": ["What is Old Main?", "What do they serve at Old Main?", "Where is Old Main?"],
+     "responses": ["Old Main is located in the basement of Kauke Hall. Flex dollars may be paid for baker items and yogurts, as well as made-to-order coffes."]
+    },
+    {"tag": "alley",
+     "patterns": ["What is the Alley?", "Why do they call it the Alley?", "Where is the Alley?"],
+     "responses": ["The Alley, named so due to the fact that it used to house a bowling alley, is a study space located in the basement of Lowry student center. Four smaller rooms are available for free use or rental, as well as a larger conference room that also includes a few arcade games. Two printers are located in the Alley as well."]
+    },
+    {"tag": "dorms",
+     "patterns": ["How are the dorms?", "How are the dorms at Wooster?", "Where do people live?", "Where would I live?", "How are the living conditions at Wooster?", "What are the dormitories like?"],
+     "responses": ["The majority of students live in dorms on campus all four years of their time at Wooster. There are designated dorm buildings for first years, and older students choose their buildings and rooms in order of random draw. Most rooms are doubles, though triples, singles, and suits are also available. There are also program houses, in which groups of students live in a house together while working with or as a part of a program."]
+    },
+    {"tag": "",
+     "patterns": [""],
+     "responses": [""]
+    }
   ]
 }
